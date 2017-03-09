@@ -1,47 +1,66 @@
 .logo-type {
-  font-family: menlo, monospace;
-  font-weight: 600;
-  color: #d69b69;
+    font-family: menlo, monospace;
+    font-weight: 600;
+    color: #d69b69;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
-  .logo-type:before {
+.logo-type:before {
     content: '➜ ~';
     color: #93a1a1;
-  }
+}
 
-  .logo-type::first-letter {
+.logo-type::first-letter {
     color: #596e75;
-  }
+}
 
-  .logo-type:after {
+.logo-type:after {
     content: '▉';
     color: #cf3980;
     -webkit-animation: blink-animation 1s steps(1, start) infinite;
-            animation: blink-animation 1s steps(1, start) infinite;
-  }
+    animation: blink-animation 1s steps(1, start) infinite;
+}
 
 @-webkit-keyframes blink-animation {
-  from, to { opacity: 0 }
-  50% { opacity: 1 }
+    from, to {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
 }
 
 @keyframes blink-animation {
-  from, to { opacity: 0 }
-  50% { opacity: 1 }
+    from, to {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
 }
 
+html, body {
+    height: 100%;
+    background: #eaf0f4;
+}
 
-/* demo stuff */
-html, 
-body { height: 100% }
 body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.content{
+  background: #e6ecf0;
+  border: 1px solid #cf3980;
+  border-bottom-width: 5px;
+  width: 400px;
+  height: 45px;
 }
