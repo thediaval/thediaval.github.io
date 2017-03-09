@@ -22,6 +22,10 @@
     animation: blink-animation 1s steps(1, start) infinite;
 }
 
+.logo-type span {
+    color: #cf3980;
+}
+
 @-webkit-keyframes blink-animation {
     from, to {
         opacity: 0
@@ -42,25 +46,55 @@
 
 html, body {
     height: 100%;
-    background: #eaf0f4;
+    background: #e4dcdc;
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.content{
-  background: #e6ecf0;
-  border: 1px solid #cf3980;
-  border-bottom-width: 5px;
-  width: 400px;
-  height: 45px;
+.content {
+    background: #e6ecf0;
+    border: 1px solid #cf3980;
+    border-bottom-width: 5px;
+    width: 400px;
+    height: 45px;
+}
+
+img {
+    position: absolute;
+    width: 190px;
+    margin-top: -250px;
+    margin-left: 100px;
+}
+
+.title {
+    position: absolute;
+    color: #cf3980;
+    font-weight: bold;
+}
+
+.info {
+
+}
+
+.social{
+  float: right;
+}
+
+.social i {
+  font-size: 18px;
+    color: #afa9a9;
+}
+
+.social i:hover {
+    color: #cf3980;
 }
