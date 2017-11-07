@@ -1,0 +1,49 @@
+{
+    "Superman" : {
+        "Regime" : {
+            "Owned" : "",
+            "Rarity" : "Gold",
+            "Tier" : "val1
+        },
+        "Prison" : {
+            "Owned" : "",
+            "Rarity" : "Gold",
+            "Tier" : "val2
+        },
+        "Red Son" : {
+            "Owned" : "",
+            "Rarity" : "Gold",
+            "Tier" : "val3
+        },
+        "Man of Steel" : {
+            "Owned" : "",
+            "Rarity" : "value1",
+            "Tier" : "val4
+        },
+        "Godfall" : {
+            "Owned" : "",
+            "Rarity" : "value1",
+            "Tier" : "val5
+        },
+        "Dawn of Justice" : {
+            "Owned" : "",
+            "Rarity" : "value1",
+            "Tier" : "val6
+        },
+        "Injustice 2" : {
+            "Owned" : "",
+            "Rarity" : "value1",
+            "Tier" : "val7
+        },
+        "Blackest Night" : {
+            "Owned" : "",
+            "Rarity" : "value1",
+            "Tier" : "val8
+        },
+        "New52" : {
+            "Owned" : "",
+            "Rarity" : "value1",
+            "Tier" : "val9
+        }
+    }
+}
