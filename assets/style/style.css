@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Work+Sans|Playfair+Display");
+body {
+  width: 80%;
+  margin: 10vw auto;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: 10vw;
+  font-weight: 700;
+  line-height: 5vw;
+}
+
+.heading::selection {
+  background: #f3f3f3;
+}
+
+.subheading {
+  font-size: 3vw;
+  font-weight: 500;
+  line-height: 1vw;
+}
+
+.subheading::selection {
+  background: #f3f3f3;
+}
+
+.text {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.text::selection {
+  background: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+  color: #001514;
+}
+
+@media screen and (min-width: 40em) {
+  body {
+    width: 50%;
+  }
+  .heading {
+    font-size: 6vw;
+  }
+  .subheading {
+    font-size: 2vw;
+  }
+}
+
+/*================================================
+  Start Important Part
+  ==================================================*/
+.underline {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: all 0.25s ease;
+}
+
+.underline:hover {
+  background-size: 100% 100%;
+}
+
+.underline::selection {
+  background: #001514;
+  color: #f3f3f3;
+}
+
+/*================================================
+  End Important Part
+  ==================================================*/
+/*# sourceMappingURL=style.css.map */

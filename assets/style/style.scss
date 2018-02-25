@@ -1,0 +1,86 @@
+//imports
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Work+Sans|Playfair+Display');
+//palette
+$dark: #001514;
+$accent: #561d25;
+$light: #f3f3f3;
+$gradient: linear-gradient(120deg,
+#84fab0 0%,
+#8fd3f4 100%);
+;
+//styles
+body {
+    width: 80%;
+    margin: 10vw auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.heading {
+    //font-family: 'Josefin Sans', sans-serif;
+    font-family: "Playfair Display", serif;
+    font-size: 10vw;
+    font-weight: 700;
+    line-height: 5vw;
+    &::selection{
+        background: $light;
+    }
+}
+
+.subheading {
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 1vw;
+    &::selection{
+        background: $light;
+    }
+}
+
+.text {
+    font-size: 1em;
+    font-weight: 300;
+    &::selection{
+        background: $light;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $dark;
+}
+
+
+
+@media screen and (min-width: 40em) {
+    body {
+        width: 50%;
+    }
+    .heading {
+        font-size: 6vw;
+    }
+    .subheading {
+        font-size: 2vw;
+    }
+}
+
+/*================================================
+  Start Important Part
+  ==================================================*/
+
+.underline {
+    background-image: $gradient;
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: all 0.25s ease;
+    &:hover {
+        background-size: 100% 100%;
+    }
+    &::selection{
+        background: $dark;
+        color: $light;
+    }
+}
+
+/*================================================
+  End Important Part
+  ==================================================*/
